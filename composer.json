@@ -1,7 +1,20 @@
-{   "name": "FOMEKONG SANDRA/CONTACTSERVICE",
-"description": "project",
-"type": "project",
-"license": "AGPL-3.0-only",
+{   
+    
+    "name": "FOMEKONG SANDRA/CONTACTSERVICE",
+    "description": "project",
+    "license": "AGPL-3.0-only",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "FOMEKONG SANDRA\\CONTACTSERVICE\\": "src/"
+          
+        }
+    },
+    "authors": [
+        {
+            "name": "FOMEKONG"
+        }
+    ],
     "require": {
         "ext-pdo_sqlite": "*",
         "ext-mbstring": "*",
