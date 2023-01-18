@@ -18,7 +18,8 @@ class ContactService {
      * ContactService constructor.
      * Initialise la BDD
      */
-    public function __construct() {
+    public function __construct() 
+    {
         $this->pdo = new PDO('sqlite:' . __DIR__ . '/contacts.sqlite');
 
         $this->pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
@@ -31,7 +32,8 @@ class ContactService {
      * @return mixed le retour de la requete SQL
      * @throws invalidInputException en cas d'erreur de paramètre
      */
-    public function getContact($id) {
+    public function getContact($id) 
+        {
         if (empty($id)) {
             throw new invalidInputException("l'id doit être renseigné");
         }
