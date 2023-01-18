@@ -1,18 +1,17 @@
-{   
-    
-    "name": "FOMEKONGSANDRA/CONTACTSERVICE",
-    "description": "project",
-    "license": "AGPL-3.0-only",
+{
+    "name": "sandra/contact-service",
+    "description": "project test",
     "type": "project",
+    "license": "AGPL-3.0-only",
     "autoload": {
         "psr-4": {
-            "FOMEKONG SANDRA\\CONTACTSERVICE\\": "src/"
-          
+            "Sandra\\ContactService\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "FOMEKONG"
+            "name": "fomekongsandra",
+            "email": "63794104+fomekongsandra@users.noreply.github.com"
         }
     ],
     "require": {
@@ -21,4 +20,3 @@
         "phpunit/phpunit": "^9.5"
     }
 }
-
