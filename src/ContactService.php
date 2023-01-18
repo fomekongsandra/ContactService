@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
- require_once"invalidInputException.php";
+ include ("invalidInputException.php");
 
 class ContactService {
     public $pdo;
