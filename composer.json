@@ -1,7 +1,11 @@
-{
+{   "name": "FOMEKONG SANDRA/CONTACTSERVICE",
+"description": "project",
+"type": "project",
+"license": "AGPL-3.0-only",
     "require": {
         "ext-pdo_sqlite": "*",
         "ext-mbstring": "*",
         "phpunit/phpunit": "^9.5"
     }
 }
+
