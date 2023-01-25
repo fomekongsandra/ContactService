@@ -38,6 +38,3 @@ jobs:
     # - name: Run test suite
     #  run: composer run-script test
 
-getcomposer.org (https://getcomposer.org/doc/articles/scripts.md)
-Scripts - Composer
-A Dependency Manager for PHP
